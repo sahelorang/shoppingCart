@@ -11,8 +11,7 @@ interface productProps {
   price?: string;
   title?: string;
   button?: string;
-  provider?: any;
-  count?: any;
+  count?: string | number;
 }
 
 export const CardContext = createContext<productProps[] | undefined>(undefined);

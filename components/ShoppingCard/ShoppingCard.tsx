@@ -18,7 +18,6 @@ const ShoppingCard = () => {
           <Box key={index}>
             <Grid>
               <Box
-                key={index}
                 sx={{
                   width: theme.spacing(75),
                   margin: theme.spacing(1),
