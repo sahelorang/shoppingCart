@@ -76,7 +76,7 @@ const ShoppingItems = () => {
           justifyContent="space-between"
           alignItems="flex-start"
         >
-          <Link href="/ShoppingCard">
+          <Link href="/shopping-card">
             <Badge
               badgeContent={card.length}
               style={{ margin: theme.spacing(4) }}

@@ -4,7 +4,7 @@ import { RTL } from "../components/RTL/index";
 import { ThemeProvider } from "@material-ui/core";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../theme";
-import CardContextProvider from "../Context/CardContext";
+import CardContextProvider from "../context/CardContext";
 
 const CustomApp: FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
